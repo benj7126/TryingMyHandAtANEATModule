@@ -93,6 +93,7 @@ function Pool:internalCalcFitness()
                 self.maxFitness = genome.fitness
                 self.bestNN = genome.network
             end
+			genome.time = self.Time
         end
     end
 end
